@@ -1,10 +1,10 @@
 # self-balancing-bicycle
 DIY self balance bicycle for autonomous driving 
 
-## Balance Control
+### Balance Control
 
-## Line Detection and Trajectory Planning
+### Line Detection and Trajectory Planning
 
-## MPC tracking
+### MPC tracking
 
 
