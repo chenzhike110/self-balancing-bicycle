@@ -1,0 +1,413 @@
+Dependencies for Project 'Minibalance', Target 'Target 1': (DO NOT MODIFY !)
+F (.\startup_stm32f10x_md.s)(0x532BB22A)(--cpu Cortex-M3 -g --apcs=interwork -I "C:\Users\Lee Young\Desktop\独轮机器人\V1.2\自平衡独轮机器人\USER\RTE"-I C:\mysoftware\KEIL5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I C:\mysoftware\KEIL5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 514" --pd "STM32F10X_HD SETA 1"--list ..\obj\startup_stm32f10x_md.lst --xref -o ..\obj\startup_stm32f10x_md.o --depend ..\obj\startup_stm32f10x_md.d)
+F (.\Minibalance.c)(0x5E92C77D)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\LED -I..\HARDWARE\KEY -I..\HARDWARE\OLED -I..\HARDWARE\ADC -I..\HARDWARE\TIMER -I..\HARDWARE\MOTOR -I..\BALANCE\CONTROL -I..\HARDWARE\ENCODER -I..\BALANCE\CONTROL -I..\BALANCE\DataScope_DP -I..\BALANCE\show -I..\BALANCE\controls -I..\HARDWARE\EXTI -I..\HARDWARE\pid -I..\STM32F10x_FWLib\inc -I..\USER -I..\HARDWARE\DMP -I..\HARDWARE\I2C -I..\HARDWARE\mpu6050 -I..\BALANCE\filter -I..\CORE-I "C:\Users\Lee Young\Desktop\独轮机器人\V1.2\自平衡独轮机器人\USER\RTE"-I C:\mysoftware\KEIL5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I C:\mysoftware\KEIL5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD-o ..\obj\minibalance.o --omf_browse ..\obj\minibalance.crf --depend ..\obj\minibalance.d)
+I (..\SYSTEM\sys\sys.h)(0x5E984F41)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (C:\mysoftware\KEIL5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\SYSTEM\delay\delay.h)(0x571B23FE)
+I (..\HARDWARE\LED\led.h)(0x5E0377DB)
+I (..\HARDWARE\KEY\key.h)(0x597EA9E9)
+I (..\HARDWARE\OLED\oled.h)(0x5E073F0D)
+I (C:\mysoftware\KEIL5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (..\SYSTEM\usart\usart.h)(0x571B23FE)
+I (C:\mysoftware\KEIL5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (..\HARDWARE\ADC\adc.h)(0x571B2400)
+I (..\HARDWARE\TIMER\timer.h)(0x571B23FE)
+I (..\HARDWARE\MOTOR\motor.h)(0x5E92C84E)
+I (..\HARDWARE\ENCODER\encoder.h)(0x56EE4AB2)
+I (..\HARDWARE\mpu6050\mpu6050.h)(0x5E105136)
+I (..\HARDWARE\I2C\i2c.h)(0x5E104F41)
+I (C:\mysoftware\KEIL5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (C:\mysoftware\KEIL5\ARM\ARMCC\include\math.h)(0x5475F2FE)
+I (..\BALANCE\show\show.h)(0x5E104F72)
+I (..\BALANCE\CONTROL\control.h)(0x5E1072FF)
+F (..\SYSTEM\delay\delay.c)(0x597D92D4)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\LED -I..\HARDWARE\KEY -I..\HARDWARE\OLED -I..\HARDWARE\ADC -I..\HARDWARE\TIMER -I..\HARDWARE\MOTOR -I..\BALANCE\CONTROL -I..\HARDWARE\ENCODER -I..\BALANCE\CONTROL -I..\BALANCE\DataScope_DP -I..\BALANCE\show -I..\BALANCE\controls -I..\HARDWARE\EXTI -I..\HARDWARE\pid -I..\STM32F10x_FWLib\inc -I..\USER -I..\HARDWARE\DMP -I..\HARDWARE\I2C -I..\HARDWARE\mpu6050 -I..\BALANCE\filter -I..\CORE-I "C:\Users\Lee Young\Desktop\独轮机器人\V1.2\自平衡独轮机器人\USER\RTE"-I C:\mysoftware\KEIL5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I C:\mysoftware\KEIL5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD-o ..\obj\delay.o --omf_browse ..\obj\delay.crf --depend ..\obj\delay.d)
+I (..\SYSTEM\delay\delay.h)(0x571B23FE)
+I (..\SYSTEM\sys\sys.h)(0x5E984F41)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (C:\mysoftware\KEIL5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\HARDWARE\LED\led.h)(0x5E0377DB)
+I (..\HARDWARE\KEY\key.h)(0x597EA9E9)
+I (..\HARDWARE\OLED\oled.h)(0x5E073F0D)
+I (C:\mysoftware\KEIL5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (..\SYSTEM\usart\usart.h)(0x571B23FE)
+I (C:\mysoftware\KEIL5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (..\HARDWARE\ADC\adc.h)(0x571B2400)
+I (..\HARDWARE\TIMER\timer.h)(0x571B23FE)
+I (..\HARDWARE\MOTOR\motor.h)(0x5E92C84E)
+I (..\HARDWARE\ENCODER\encoder.h)(0x56EE4AB2)
+I (..\HARDWARE\mpu6050\mpu6050.h)(0x5E105136)
+I (..\HARDWARE\I2C\i2c.h)(0x5E104F41)
+I (C:\mysoftware\KEIL5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (C:\mysoftware\KEIL5\ARM\ARMCC\include\math.h)(0x5475F2FE)
+F (..\SYSTEM\sys\sys.c)(0x5E104DB8)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\LED -I..\HARDWARE\KEY -I..\HARDWARE\OLED -I..\HARDWARE\ADC -I..\HARDWARE\TIMER -I..\HARDWARE\MOTOR -I..\BALANCE\CONTROL -I..\HARDWARE\ENCODER -I..\BALANCE\CONTROL -I..\BALANCE\DataScope_DP -I..\BALANCE\show -I..\BALANCE\controls -I..\HARDWARE\EXTI -I..\HARDWARE\pid -I..\STM32F10x_FWLib\inc -I..\USER -I..\HARDWARE\DMP -I..\HARDWARE\I2C -I..\HARDWARE\mpu6050 -I..\BALANCE\filter -I..\CORE-I "C:\Users\Lee Young\Desktop\独轮机器人\V1.2\自平衡独轮机器人\USER\RTE"-I C:\mysoftware\KEIL5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I C:\mysoftware\KEIL5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD-o ..\obj\sys.o --omf_browse ..\obj\sys.crf --depend ..\obj\sys.d)
+I (..\SYSTEM\sys\sys.h)(0x5E984F41)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (C:\mysoftware\KEIL5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\SYSTEM\delay\delay.h)(0x571B23FE)
+I (..\HARDWARE\LED\led.h)(0x5E0377DB)
+I (..\HARDWARE\KEY\key.h)(0x597EA9E9)
+I (..\HARDWARE\OLED\oled.h)(0x5E073F0D)
+I (C:\mysoftware\KEIL5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (..\SYSTEM\usart\usart.h)(0x571B23FE)
+I (C:\mysoftware\KEIL5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (..\HARDWARE\ADC\adc.h)(0x571B2400)
+I (..\HARDWARE\TIMER\timer.h)(0x571B23FE)
+I (..\HARDWARE\MOTOR\motor.h)(0x5E92C84E)
+I (..\HARDWARE\ENCODER\encoder.h)(0x56EE4AB2)
+I (..\HARDWARE\mpu6050\mpu6050.h)(0x5E105136)
+I (..\HARDWARE\I2C\i2c.h)(0x5E104F41)
+I (C:\mysoftware\KEIL5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (C:\mysoftware\KEIL5\ARM\ARMCC\include\math.h)(0x5475F2FE)
+F (..\SYSTEM\usart\usart.c)(0x5E104F2B)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\LED -I..\HARDWARE\KEY -I..\HARDWARE\OLED -I..\HARDWARE\ADC -I..\HARDWARE\TIMER -I..\HARDWARE\MOTOR -I..\BALANCE\CONTROL -I..\HARDWARE\ENCODER -I..\BALANCE\CONTROL -I..\BALANCE\DataScope_DP -I..\BALANCE\show -I..\BALANCE\controls -I..\HARDWARE\EXTI -I..\HARDWARE\pid -I..\STM32F10x_FWLib\inc -I..\USER -I..\HARDWARE\DMP -I..\HARDWARE\I2C -I..\HARDWARE\mpu6050 -I..\BALANCE\filter -I..\CORE-I "C:\Users\Lee Young\Desktop\独轮机器人\V1.2\自平衡独轮机器人\USER\RTE"-I C:\mysoftware\KEIL5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I C:\mysoftware\KEIL5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD-o ..\obj\usart.o --omf_browse ..\obj\usart.crf --depend ..\obj\usart.d)
+I (..\SYSTEM\usart\usart.h)(0x571B23FE)
+I (..\SYSTEM\sys\sys.h)(0x5E984F41)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (C:\mysoftware\KEIL5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\SYSTEM\delay\delay.h)(0x571B23FE)
+I (..\HARDWARE\LED\led.h)(0x5E0377DB)
+I (..\HARDWARE\KEY\key.h)(0x597EA9E9)
+I (..\HARDWARE\OLED\oled.h)(0x5E073F0D)
+I (C:\mysoftware\KEIL5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (..\HARDWARE\ADC\adc.h)(0x571B2400)
+I (..\HARDWARE\TIMER\timer.h)(0x571B23FE)
+I (..\HARDWARE\MOTOR\motor.h)(0x5E92C84E)
+I (..\HARDWARE\ENCODER\encoder.h)(0x56EE4AB2)
+I (..\HARDWARE\mpu6050\mpu6050.h)(0x5E105136)
+I (..\HARDWARE\I2C\i2c.h)(0x5E104F41)
+I (C:\mysoftware\KEIL5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (C:\mysoftware\KEIL5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (C:\mysoftware\KEIL5\ARM\ARMCC\include\math.h)(0x5475F2FE)
+F (..\HARDWARE\LED\LED.C)(0x5E062295)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\LED -I..\HARDWARE\KEY -I..\HARDWARE\OLED -I..\HARDWARE\ADC -I..\HARDWARE\TIMER -I..\HARDWARE\MOTOR -I..\BALANCE\CONTROL -I..\HARDWARE\ENCODER -I..\BALANCE\CONTROL -I..\BALANCE\DataScope_DP -I..\BALANCE\show -I..\BALANCE\controls -I..\HARDWARE\EXTI -I..\HARDWARE\pid -I..\STM32F10x_FWLib\inc -I..\USER -I..\HARDWARE\DMP -I..\HARDWARE\I2C -I..\HARDWARE\mpu6050 -I..\BALANCE\filter -I..\CORE-I "C:\Users\Lee Young\Desktop\独轮机器人\V1.2\自平衡独轮机器人\USER\RTE"-I C:\mysoftware\KEIL5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I C:\mysoftware\KEIL5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD-o ..\obj\led.o --omf_browse ..\obj\led.crf --depend ..\obj\led.d)
+I (..\HARDWARE\LED\led.h)(0x5E0377DB)
+I (..\SYSTEM\sys\sys.h)(0x5E984F41)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (C:\mysoftware\KEIL5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\SYSTEM\delay\delay.h)(0x571B23FE)
+I (..\HARDWARE\KEY\key.h)(0x597EA9E9)
+I (..\HARDWARE\OLED\oled.h)(0x5E073F0D)
+I (C:\mysoftware\KEIL5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (..\SYSTEM\usart\usart.h)(0x571B23FE)
+I (C:\mysoftware\KEIL5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (..\HARDWARE\ADC\adc.h)(0x571B2400)
+I (..\HARDWARE\TIMER\timer.h)(0x571B23FE)
+I (..\HARDWARE\MOTOR\motor.h)(0x5E92C84E)
+I (..\HARDWARE\ENCODER\encoder.h)(0x56EE4AB2)
+I (..\HARDWARE\mpu6050\mpu6050.h)(0x5E105136)
+I (..\HARDWARE\I2C\i2c.h)(0x5E104F41)
+I (C:\mysoftware\KEIL5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (C:\mysoftware\KEIL5\ARM\ARMCC\include\math.h)(0x5475F2FE)
+F (..\HARDWARE\KEY\key.c)(0x5E107476)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\LED -I..\HARDWARE\KEY -I..\HARDWARE\OLED -I..\HARDWARE\ADC -I..\HARDWARE\TIMER -I..\HARDWARE\MOTOR -I..\BALANCE\CONTROL -I..\HARDWARE\ENCODER -I..\BALANCE\CONTROL -I..\BALANCE\DataScope_DP -I..\BALANCE\show -I..\BALANCE\controls -I..\HARDWARE\EXTI -I..\HARDWARE\pid -I..\STM32F10x_FWLib\inc -I..\USER -I..\HARDWARE\DMP -I..\HARDWARE\I2C -I..\HARDWARE\mpu6050 -I..\BALANCE\filter -I..\CORE-I "C:\Users\Lee Young\Desktop\独轮机器人\V1.2\自平衡独轮机器人\USER\RTE"-I C:\mysoftware\KEIL5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I C:\mysoftware\KEIL5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD-o ..\obj\key.o --omf_browse ..\obj\key.crf --depend ..\obj\key.d)
+I (..\HARDWARE\KEY\key.h)(0x597EA9E9)
+I (..\SYSTEM\sys\sys.h)(0x5E984F41)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (C:\mysoftware\KEIL5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\SYSTEM\delay\delay.h)(0x571B23FE)
+I (..\HARDWARE\LED\led.h)(0x5E0377DB)
+I (..\HARDWARE\OLED\oled.h)(0x5E073F0D)
+I (C:\mysoftware\KEIL5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (..\SYSTEM\usart\usart.h)(0x571B23FE)
+I (C:\mysoftware\KEIL5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (..\HARDWARE\ADC\adc.h)(0x571B2400)
+I (..\HARDWARE\TIMER\timer.h)(0x571B23FE)
+I (..\HARDWARE\MOTOR\motor.h)(0x5E92C84E)
+I (..\HARDWARE\ENCODER\encoder.h)(0x56EE4AB2)
+I (..\HARDWARE\mpu6050\mpu6050.h)(0x5E105136)
+I (..\HARDWARE\I2C\i2c.h)(0x5E104F41)
+I (C:\mysoftware\KEIL5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (C:\mysoftware\KEIL5\ARM\ARMCC\include\math.h)(0x5475F2FE)
+F (..\HARDWARE\OLED\oled.c)(0x5E92C9BA)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\LED -I..\HARDWARE\KEY -I..\HARDWARE\OLED -I..\HARDWARE\ADC -I..\HARDWARE\TIMER -I..\HARDWARE\MOTOR -I..\BALANCE\CONTROL -I..\HARDWARE\ENCODER -I..\BALANCE\CONTROL -I..\BALANCE\DataScope_DP -I..\BALANCE\show -I..\BALANCE\controls -I..\HARDWARE\EXTI -I..\HARDWARE\pid -I..\STM32F10x_FWLib\inc -I..\USER -I..\HARDWARE\DMP -I..\HARDWARE\I2C -I..\HARDWARE\mpu6050 -I..\BALANCE\filter -I..\CORE-I "C:\Users\Lee Young\Desktop\独轮机器人\V1.2\自平衡独轮机器人\USER\RTE"-I C:\mysoftware\KEIL5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I C:\mysoftware\KEIL5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD-o ..\obj\oled.o --omf_browse ..\obj\oled.crf --depend ..\obj\oled.d)
+I (..\HARDWARE\OLED\oled.h)(0x5E073F0D)
+I (..\SYSTEM\sys\sys.h)(0x5E984F41)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (C:\mysoftware\KEIL5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\SYSTEM\delay\delay.h)(0x571B23FE)
+I (..\HARDWARE\LED\led.h)(0x5E0377DB)
+I (..\HARDWARE\KEY\key.h)(0x597EA9E9)
+I (..\SYSTEM\usart\usart.h)(0x571B23FE)
+I (C:\mysoftware\KEIL5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (..\HARDWARE\ADC\adc.h)(0x571B2400)
+I (..\HARDWARE\TIMER\timer.h)(0x571B23FE)
+I (..\HARDWARE\MOTOR\motor.h)(0x5E92C84E)
+I (..\HARDWARE\ENCODER\encoder.h)(0x56EE4AB2)
+I (..\HARDWARE\mpu6050\mpu6050.h)(0x5E105136)
+I (..\HARDWARE\I2C\i2c.h)(0x5E104F41)
+I (C:\mysoftware\KEIL5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (C:\mysoftware\KEIL5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (C:\mysoftware\KEIL5\ARM\ARMCC\include\math.h)(0x5475F2FE)
+I (..\HARDWARE\OLED\oledfont.h)(0x544D152F)
+F (..\HARDWARE\ADC\adc.c)(0x5B7D6484)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\LED -I..\HARDWARE\KEY -I..\HARDWARE\OLED -I..\HARDWARE\ADC -I..\HARDWARE\TIMER -I..\HARDWARE\MOTOR -I..\BALANCE\CONTROL -I..\HARDWARE\ENCODER -I..\BALANCE\CONTROL -I..\BALANCE\DataScope_DP -I..\BALANCE\show -I..\BALANCE\controls -I..\HARDWARE\EXTI -I..\HARDWARE\pid -I..\STM32F10x_FWLib\inc -I..\USER -I..\HARDWARE\DMP -I..\HARDWARE\I2C -I..\HARDWARE\mpu6050 -I..\BALANCE\filter -I..\CORE-I "C:\Users\Lee Young\Desktop\独轮机器人\V1.2\自平衡独轮机器人\USER\RTE"-I C:\mysoftware\KEIL5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I C:\mysoftware\KEIL5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD-o ..\obj\adc.o --omf_browse ..\obj\adc.crf --depend ..\obj\adc.d)
+I (..\HARDWARE\ADC\adc.h)(0x571B2400)
+I (..\SYSTEM\sys\sys.h)(0x5E984F41)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (C:\mysoftware\KEIL5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\SYSTEM\delay\delay.h)(0x571B23FE)
+I (..\HARDWARE\LED\led.h)(0x5E0377DB)
+I (..\HARDWARE\KEY\key.h)(0x597EA9E9)
+I (..\HARDWARE\OLED\oled.h)(0x5E073F0D)
+I (C:\mysoftware\KEIL5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (..\SYSTEM\usart\usart.h)(0x571B23FE)
+I (C:\mysoftware\KEIL5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (..\HARDWARE\TIMER\timer.h)(0x571B23FE)
+I (..\HARDWARE\MOTOR\motor.h)(0x5E92C84E)
+I (..\HARDWARE\ENCODER\encoder.h)(0x56EE4AB2)
+I (..\HARDWARE\mpu6050\mpu6050.h)(0x5E105136)
+I (..\HARDWARE\I2C\i2c.h)(0x5E104F41)
+I (C:\mysoftware\KEIL5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (C:\mysoftware\KEIL5\ARM\ARMCC\include\math.h)(0x5475F2FE)
+F (..\HARDWARE\TIMER\timer.c)(0x5ADAFEA0)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\LED -I..\HARDWARE\KEY -I..\HARDWARE\OLED -I..\HARDWARE\ADC -I..\HARDWARE\TIMER -I..\HARDWARE\MOTOR -I..\BALANCE\CONTROL -I..\HARDWARE\ENCODER -I..\BALANCE\CONTROL -I..\BALANCE\DataScope_DP -I..\BALANCE\show -I..\BALANCE\controls -I..\HARDWARE\EXTI -I..\HARDWARE\pid -I..\STM32F10x_FWLib\inc -I..\USER -I..\HARDWARE\DMP -I..\HARDWARE\I2C -I..\HARDWARE\mpu6050 -I..\BALANCE\filter -I..\CORE-I "C:\Users\Lee Young\Desktop\独轮机器人\V1.2\自平衡独轮机器人\USER\RTE"-I C:\mysoftware\KEIL5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I C:\mysoftware\KEIL5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD-o ..\obj\timer.o --omf_browse ..\obj\timer.crf --depend ..\obj\timer.d)
+I (..\HARDWARE\TIMER\timer.h)(0x571B23FE)
+I (..\SYSTEM\sys\sys.h)(0x5E984F41)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (C:\mysoftware\KEIL5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\SYSTEM\delay\delay.h)(0x571B23FE)
+I (..\HARDWARE\LED\led.h)(0x5E0377DB)
+I (..\HARDWARE\KEY\key.h)(0x597EA9E9)
+I (..\HARDWARE\OLED\oled.h)(0x5E073F0D)
+I (C:\mysoftware\KEIL5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (..\SYSTEM\usart\usart.h)(0x571B23FE)
+I (C:\mysoftware\KEIL5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (..\HARDWARE\ADC\adc.h)(0x571B2400)
+I (..\HARDWARE\MOTOR\motor.h)(0x5E92C84E)
+I (..\HARDWARE\ENCODER\encoder.h)(0x56EE4AB2)
+I (..\HARDWARE\mpu6050\mpu6050.h)(0x5E105136)
+I (..\HARDWARE\I2C\i2c.h)(0x5E104F41)
+I (C:\mysoftware\KEIL5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (C:\mysoftware\KEIL5\ARM\ARMCC\include\math.h)(0x5475F2FE)
+F (..\HARDWARE\MOTOR\motor.c)(0x5E92D164)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\LED -I..\HARDWARE\KEY -I..\HARDWARE\OLED -I..\HARDWARE\ADC -I..\HARDWARE\TIMER -I..\HARDWARE\MOTOR -I..\BALANCE\CONTROL -I..\HARDWARE\ENCODER -I..\BALANCE\CONTROL -I..\BALANCE\DataScope_DP -I..\BALANCE\show -I..\BALANCE\controls -I..\HARDWARE\EXTI -I..\HARDWARE\pid -I..\STM32F10x_FWLib\inc -I..\USER -I..\HARDWARE\DMP -I..\HARDWARE\I2C -I..\HARDWARE\mpu6050 -I..\BALANCE\filter -I..\CORE-I "C:\Users\Lee Young\Desktop\独轮机器人\V1.2\自平衡独轮机器人\USER\RTE"-I C:\mysoftware\KEIL5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I C:\mysoftware\KEIL5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD-o ..\obj\motor.o --omf_browse ..\obj\motor.crf --depend ..\obj\motor.d)
+I (..\HARDWARE\MOTOR\motor.h)(0x5E92C84E)
+I (..\SYSTEM\sys\sys.h)(0x5E984F41)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (C:\mysoftware\KEIL5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\SYSTEM\delay\delay.h)(0x571B23FE)
+I (..\HARDWARE\LED\led.h)(0x5E0377DB)
+I (..\HARDWARE\KEY\key.h)(0x597EA9E9)
+I (..\HARDWARE\OLED\oled.h)(0x5E073F0D)
+I (C:\mysoftware\KEIL5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (..\SYSTEM\usart\usart.h)(0x571B23FE)
+I (C:\mysoftware\KEIL5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (..\HARDWARE\ADC\adc.h)(0x571B2400)
+I (..\HARDWARE\TIMER\timer.h)(0x571B23FE)
+I (..\HARDWARE\ENCODER\encoder.h)(0x56EE4AB2)
+I (..\HARDWARE\mpu6050\mpu6050.h)(0x5E105136)
+I (..\HARDWARE\I2C\i2c.h)(0x5E104F41)
+I (C:\mysoftware\KEIL5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (C:\mysoftware\KEIL5\ARM\ARMCC\include\math.h)(0x5475F2FE)
+F (..\HARDWARE\ENCODER\encoder.c)(0x5E92CACE)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\LED -I..\HARDWARE\KEY -I..\HARDWARE\OLED -I..\HARDWARE\ADC -I..\HARDWARE\TIMER -I..\HARDWARE\MOTOR -I..\BALANCE\CONTROL -I..\HARDWARE\ENCODER -I..\BALANCE\CONTROL -I..\BALANCE\DataScope_DP -I..\BALANCE\show -I..\BALANCE\controls -I..\HARDWARE\EXTI -I..\HARDWARE\pid -I..\STM32F10x_FWLib\inc -I..\USER -I..\HARDWARE\DMP -I..\HARDWARE\I2C -I..\HARDWARE\mpu6050 -I..\BALANCE\filter -I..\CORE-I "C:\Users\Lee Young\Desktop\独轮机器人\V1.2\自平衡独轮机器人\USER\RTE"-I C:\mysoftware\KEIL5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I C:\mysoftware\KEIL5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD-o ..\obj\encoder.o --omf_browse ..\obj\encoder.crf --depend ..\obj\encoder.d)
+I (..\HARDWARE\ENCODER\encoder.h)(0x56EE4AB2)
+I (..\SYSTEM\sys\sys.h)(0x5E984F41)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (C:\mysoftware\KEIL5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\SYSTEM\delay\delay.h)(0x571B23FE)
+I (..\HARDWARE\LED\led.h)(0x5E0377DB)
+I (..\HARDWARE\KEY\key.h)(0x597EA9E9)
+I (..\HARDWARE\OLED\oled.h)(0x5E073F0D)
+I (C:\mysoftware\KEIL5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (..\SYSTEM\usart\usart.h)(0x571B23FE)
+I (C:\mysoftware\KEIL5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (..\HARDWARE\ADC\adc.h)(0x571B2400)
+I (..\HARDWARE\TIMER\timer.h)(0x571B23FE)
+I (..\HARDWARE\MOTOR\motor.h)(0x5E92C84E)
+I (..\HARDWARE\mpu6050\mpu6050.h)(0x5E105136)
+I (..\HARDWARE\I2C\i2c.h)(0x5E104F41)
+I (C:\mysoftware\KEIL5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (C:\mysoftware\KEIL5\ARM\ARMCC\include\math.h)(0x5475F2FE)
+F (..\HARDWARE\I2C\I2C.c)(0x5E92C6F2)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\LED -I..\HARDWARE\KEY -I..\HARDWARE\OLED -I..\HARDWARE\ADC -I..\HARDWARE\TIMER -I..\HARDWARE\MOTOR -I..\BALANCE\CONTROL -I..\HARDWARE\ENCODER -I..\BALANCE\CONTROL -I..\BALANCE\DataScope_DP -I..\BALANCE\show -I..\BALANCE\controls -I..\HARDWARE\EXTI -I..\HARDWARE\pid -I..\STM32F10x_FWLib\inc -I..\USER -I..\HARDWARE\DMP -I..\HARDWARE\I2C -I..\HARDWARE\mpu6050 -I..\BALANCE\filter -I..\CORE-I "C:\Users\Lee Young\Desktop\独轮机器人\V1.2\自平衡独轮机器人\USER\RTE"-I C:\mysoftware\KEIL5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I C:\mysoftware\KEIL5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD-o ..\obj\i2c.o --omf_browse ..\obj\i2c.crf --depend ..\obj\i2c.d)
+I (..\HARDWARE\I2C\i2c.h)(0x5E104F41)
+I (..\SYSTEM\sys\sys.h)(0x5E984F41)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (C:\mysoftware\KEIL5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\SYSTEM\delay\delay.h)(0x571B23FE)
+I (..\HARDWARE\LED\led.h)(0x5E0377DB)
+I (..\HARDWARE\KEY\key.h)(0x597EA9E9)
+I (..\HARDWARE\OLED\oled.h)(0x5E073F0D)
+I (C:\mysoftware\KEIL5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (..\SYSTEM\usart\usart.h)(0x571B23FE)
+I (C:\mysoftware\KEIL5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (..\HARDWARE\ADC\adc.h)(0x571B2400)
+I (..\HARDWARE\TIMER\timer.h)(0x571B23FE)
+I (..\HARDWARE\MOTOR\motor.h)(0x5E92C84E)
+I (..\HARDWARE\ENCODER\encoder.h)(0x56EE4AB2)
+I (..\HARDWARE\mpu6050\mpu6050.h)(0x5E105136)
+I (C:\mysoftware\KEIL5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (C:\mysoftware\KEIL5\ARM\ARMCC\include\math.h)(0x5475F2FE)
+F (..\HARDWARE\mpu6050\mpu6050.c)(0x5E105117)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\LED -I..\HARDWARE\KEY -I..\HARDWARE\OLED -I..\HARDWARE\ADC -I..\HARDWARE\TIMER -I..\HARDWARE\MOTOR -I..\BALANCE\CONTROL -I..\HARDWARE\ENCODER -I..\BALANCE\CONTROL -I..\BALANCE\DataScope_DP -I..\BALANCE\show -I..\BALANCE\controls -I..\HARDWARE\EXTI -I..\HARDWARE\pid -I..\STM32F10x_FWLib\inc -I..\USER -I..\HARDWARE\DMP -I..\HARDWARE\I2C -I..\HARDWARE\mpu6050 -I..\BALANCE\filter -I..\CORE-I "C:\Users\Lee Young\Desktop\独轮机器人\V1.2\自平衡独轮机器人\USER\RTE"-I C:\mysoftware\KEIL5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I C:\mysoftware\KEIL5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD-o ..\obj\mpu6050.o --omf_browse ..\obj\mpu6050.crf --depend ..\obj\mpu6050.d)
+I (..\HARDWARE\mpu6050\mpu6050.h)(0x5E105136)
+I (..\HARDWARE\I2C\i2c.h)(0x5E104F41)
+I (..\SYSTEM\sys\sys.h)(0x5E984F41)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (C:\mysoftware\KEIL5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\SYSTEM\delay\delay.h)(0x571B23FE)
+I (..\HARDWARE\LED\led.h)(0x5E0377DB)
+I (..\HARDWARE\KEY\key.h)(0x597EA9E9)
+I (..\HARDWARE\OLED\oled.h)(0x5E073F0D)
+I (C:\mysoftware\KEIL5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (..\SYSTEM\usart\usart.h)(0x571B23FE)
+I (C:\mysoftware\KEIL5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (..\HARDWARE\ADC\adc.h)(0x571B2400)
+I (..\HARDWARE\TIMER\timer.h)(0x571B23FE)
+I (..\HARDWARE\MOTOR\motor.h)(0x5E92C84E)
+I (..\HARDWARE\ENCODER\encoder.h)(0x56EE4AB2)
+I (C:\mysoftware\KEIL5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (C:\mysoftware\KEIL5\ARM\ARMCC\include\math.h)(0x5475F2FE)
+F (..\HARDWARE\CONTROL\control.c)(0x5E984DCC)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\LED -I..\HARDWARE\KEY -I..\HARDWARE\OLED -I..\HARDWARE\ADC -I..\HARDWARE\TIMER -I..\HARDWARE\MOTOR -I..\BALANCE\CONTROL -I..\HARDWARE\ENCODER -I..\BALANCE\CONTROL -I..\BALANCE\DataScope_DP -I..\BALANCE\show -I..\BALANCE\controls -I..\HARDWARE\EXTI -I..\HARDWARE\pid -I..\STM32F10x_FWLib\inc -I..\USER -I..\HARDWARE\DMP -I..\HARDWARE\I2C -I..\HARDWARE\mpu6050 -I..\BALANCE\filter -I..\CORE-I "C:\Users\Lee Young\Desktop\独轮机器人\V1.2\自平衡独轮机器人\USER\RTE"-I C:\mysoftware\KEIL5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I C:\mysoftware\KEIL5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD-o ..\obj\control.o --omf_browse ..\obj\control.crf --depend ..\obj\control.d)
+I (..\HARDWARE\CONTROL\control.h)(0x5E1072FF)
+I (..\SYSTEM\sys\sys.h)(0x5E984F41)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (C:\mysoftware\KEIL5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\SYSTEM\delay\delay.h)(0x571B23FE)
+I (..\HARDWARE\LED\led.h)(0x5E0377DB)
+I (..\HARDWARE\KEY\key.h)(0x597EA9E9)
+I (..\HARDWARE\OLED\oled.h)(0x5E073F0D)
+I (C:\mysoftware\KEIL5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (..\SYSTEM\usart\usart.h)(0x571B23FE)
+I (C:\mysoftware\KEIL5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (..\HARDWARE\ADC\adc.h)(0x571B2400)
+I (..\HARDWARE\TIMER\timer.h)(0x571B23FE)
+I (..\HARDWARE\MOTOR\motor.h)(0x5E92C84E)
+I (..\HARDWARE\ENCODER\encoder.h)(0x56EE4AB2)
+I (..\HARDWARE\mpu6050\mpu6050.h)(0x5E105136)
+I (..\HARDWARE\I2C\i2c.h)(0x5E104F41)
+I (C:\mysoftware\KEIL5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (C:\mysoftware\KEIL5\ARM\ARMCC\include\math.h)(0x5475F2FE)
+I (..\BALANCE\show\show.h)(0x5E104F72)
+F (..\HARDWARE\show\show.c)(0x5E92CA2A)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\LED -I..\HARDWARE\KEY -I..\HARDWARE\OLED -I..\HARDWARE\ADC -I..\HARDWARE\TIMER -I..\HARDWARE\MOTOR -I..\BALANCE\CONTROL -I..\HARDWARE\ENCODER -I..\BALANCE\CONTROL -I..\BALANCE\DataScope_DP -I..\BALANCE\show -I..\BALANCE\controls -I..\HARDWARE\EXTI -I..\HARDWARE\pid -I..\STM32F10x_FWLib\inc -I..\USER -I..\HARDWARE\DMP -I..\HARDWARE\I2C -I..\HARDWARE\mpu6050 -I..\BALANCE\filter -I..\CORE-I "C:\Users\Lee Young\Desktop\独轮机器人\V1.2\自平衡独轮机器人\USER\RTE"-I C:\mysoftware\KEIL5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I C:\mysoftware\KEIL5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD-o ..\obj\show.o --omf_browse ..\obj\show.crf --depend ..\obj\show.d)
+I (..\HARDWARE\show\show.h)(0x5E104F72)
+I (..\SYSTEM\sys\sys.h)(0x5E984F41)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (C:\mysoftware\KEIL5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\SYSTEM\delay\delay.h)(0x571B23FE)
+I (..\HARDWARE\LED\led.h)(0x5E0377DB)
+I (..\HARDWARE\KEY\key.h)(0x597EA9E9)
+I (..\HARDWARE\OLED\oled.h)(0x5E073F0D)
+I (C:\mysoftware\KEIL5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (..\SYSTEM\usart\usart.h)(0x571B23FE)
+I (C:\mysoftware\KEIL5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (..\HARDWARE\ADC\adc.h)(0x571B2400)
+I (..\HARDWARE\TIMER\timer.h)(0x571B23FE)
+I (..\HARDWARE\MOTOR\motor.h)(0x5E92C84E)
+I (..\HARDWARE\ENCODER\encoder.h)(0x56EE4AB2)
+I (..\HARDWARE\mpu6050\mpu6050.h)(0x5E105136)
+I (..\HARDWARE\I2C\i2c.h)(0x5E104F41)
+I (C:\mysoftware\KEIL5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (C:\mysoftware\KEIL5\ARM\ARMCC\include\math.h)(0x5475F2FE)
+F (..\STM32F10x_FWLib\src\stm32f10x_gpio.c)(0x5ACB39E5)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\LED -I..\HARDWARE\KEY -I..\HARDWARE\OLED -I..\HARDWARE\ADC -I..\HARDWARE\TIMER -I..\HARDWARE\MOTOR -I..\BALANCE\CONTROL -I..\HARDWARE\ENCODER -I..\BALANCE\CONTROL -I..\BALANCE\DataScope_DP -I..\BALANCE\show -I..\BALANCE\controls -I..\HARDWARE\EXTI -I..\HARDWARE\pid -I..\STM32F10x_FWLib\inc -I..\USER -I..\HARDWARE\DMP -I..\HARDWARE\I2C -I..\HARDWARE\mpu6050 -I..\BALANCE\filter -I..\CORE-I "C:\Users\Lee Young\Desktop\独轮机器人\V1.2\自平衡独轮机器人\USER\RTE"-I C:\mysoftware\KEIL5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I C:\mysoftware\KEIL5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD-o ..\obj\stm32f10x_gpio.o --omf_browse ..\obj\stm32f10x_gpio.crf --depend ..\obj\stm32f10x_gpio.d)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (C:\mysoftware\KEIL5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\USER\stm32f10x_conf.h)(0x4D99A59E)
+I (..\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+F (..\STM32F10x_FWLib\src\stm32f10x_rcc.c)(0x5ACB393A)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\LED -I..\HARDWARE\KEY -I..\HARDWARE\OLED -I..\HARDWARE\ADC -I..\HARDWARE\TIMER -I..\HARDWARE\MOTOR -I..\BALANCE\CONTROL -I..\HARDWARE\ENCODER -I..\BALANCE\CONTROL -I..\BALANCE\DataScope_DP -I..\BALANCE\show -I..\BALANCE\controls -I..\HARDWARE\EXTI -I..\HARDWARE\pid -I..\STM32F10x_FWLib\inc -I..\USER -I..\HARDWARE\DMP -I..\HARDWARE\I2C -I..\HARDWARE\mpu6050 -I..\BALANCE\filter -I..\CORE-I "C:\Users\Lee Young\Desktop\独轮机器人\V1.2\自平衡独轮机器人\USER\RTE"-I C:\mysoftware\KEIL5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I C:\mysoftware\KEIL5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD-o ..\obj\stm32f10x_rcc.o --omf_browse ..\obj\stm32f10x_rcc.crf --depend ..\obj\stm32f10x_rcc.d)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (C:\mysoftware\KEIL5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (..\USER\stm32f10x_conf.h)(0x4D99A59E)
+I (..\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+F (..\CORE\core_cm3.c)(0x4C0C587E)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\LED -I..\HARDWARE\KEY -I..\HARDWARE\OLED -I..\HARDWARE\ADC -I..\HARDWARE\TIMER -I..\HARDWARE\MOTOR -I..\BALANCE\CONTROL -I..\HARDWARE\ENCODER -I..\BALANCE\CONTROL -I..\BALANCE\DataScope_DP -I..\BALANCE\show -I..\BALANCE\controls -I..\HARDWARE\EXTI -I..\HARDWARE\pid -I..\STM32F10x_FWLib\inc -I..\USER -I..\HARDWARE\DMP -I..\HARDWARE\I2C -I..\HARDWARE\mpu6050 -I..\BALANCE\filter -I..\CORE-I "C:\Users\Lee Young\Desktop\独轮机器人\V1.2\自平衡独轮机器人\USER\RTE"-I C:\mysoftware\KEIL5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I C:\mysoftware\KEIL5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD-o ..\obj\core_cm3.o --omf_browse ..\obj\core_cm3.crf --depend ..\obj\core_cm3.d)
+I (C:\mysoftware\KEIL5\ARM\ARMCC\include\stdint.h)(0x5475F300)

@@ -1,0 +1,4 @@
+-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\LED -I..\HARDWARE\KEY -I..\HARDWARE\OLED -I..\HARDWARE\ADC -I..\HARDWARE\TIMER -I..\HARDWARE\MOTOR -I..\BALANCE\CONTROL -I..\HARDWARE\ENCODER -I..\BALANCE\CONTROL -I..\BALANCE\DataScope_DP -I..\BALANCE\show -I..\BALANCE\controls -I..\HARDWARE\EXTI -I..\HARDWARE\pid -I..\STM32F10x_FWLib\inc -I..\USER -I..\HARDWARE\DMP -I..\HARDWARE\I2C -I..\HARDWARE\mpu6050 -I..\BALANCE\filter 
+-I "D:\KEIL ARM\ARM\RV31\INC" 
+-I "D:\KEIL ARM\ARM\CMSIS\Include" 
+-DSTM32F10X_MD -o "..\OBJ\inv_mpu_dmp_motion_driver.o" --omf_browse "..\OBJ\inv_mpu_dmp_motion_driver.crf" --depend "..\OBJ\inv_mpu_dmp_motion_driver.d" "..\HARDWARE\DMP\inv_mpu_dmp_motion_driver.c"
